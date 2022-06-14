@@ -13,11 +13,7 @@ module.exports.profile = function(req,res){
         })
     }else{
         return res.redirect('/users/sign-in');
-    }
-   
-   
-   
-   
+    } 
     // return res.render('user_profile',{
     //     title: 'user-profile'
     // })
